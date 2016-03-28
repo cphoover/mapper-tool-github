@@ -1,0 +1,13 @@
+{
+	"mapper" : {
+		"aws_elasticsearch" : {
+			"host" : "change this to a valid host",
+			"region" : "us-east-1",
+			"access_key" : "change this to a valid access key. don't store on disk!!!",
+			"secret_key" : "change this to a valid secret key. don't store on disk!!!",
+			"index" : "github",
+			"type" : "repo"
+		},
+		"mapping_file" : "../mapping.json"
+	}
+}

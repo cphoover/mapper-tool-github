@@ -1,0 +1,18 @@
+{
+	"properties": {
+		"pushed_at": {
+			"type": "date",
+			"format": "date_time_no_millis"
+		},
+		"description": {
+			"type": "string",
+			"analyzer": "snowball",
+			"store": "yes"
+		},
+		"name": {
+			"type": "string",
+			"analyzer": "snowball",
+			"store": "yes"
+		}
+	}
+}
