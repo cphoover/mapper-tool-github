@@ -14,7 +14,7 @@ Utillity for creating indices and corresponding mappings for github project expl
 	* **mapping_file** - string - (*default: ../mapping.json*) location of file that contains mappings (relative to lib).
 
 ## Note about access_key, secret_key
-Amazon IAM user access_key and secret_key are needed so requests to Amazon's Elasticsearch service can be signed and authorized. NOTE It is **NOT ADVISEABLE**  to store secrets inside of config file in git (**THIS IS BAD**).
+Amazon IAM user access_key and secret_key are needed so requests to Amazon's Elasticsearch service can be signed and authorized. **NOTE** It is **NOT ADVISEABLE**  to store secrets inside of config file in git (**THIS IS BAD**).
 
 This application can be configured using environment variables with the __ nested namespace seperator. (see nconf repo for more info.)
 
