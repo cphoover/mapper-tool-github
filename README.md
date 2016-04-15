@@ -1,4 +1,5 @@
 # mappings-github
+[![Build Status](https://semaphoreci.com/api/v1/cphoover/mapper-tool-github/branches/master/badge.svg)](https://semaphoreci.com/cphoover/mapper-tool-github)
 
 Utillity for creating indices and corresponding mappings for github project explorer within elasticsearch in AWS.
 
